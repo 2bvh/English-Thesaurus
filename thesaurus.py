@@ -10,6 +10,6 @@ def get_definition(w):
         return "That word doesn't exist."
 
 
-word = input("Enter word: ")
+word = input("Enter word: ").lower()
 
 print(get_definition(word))
